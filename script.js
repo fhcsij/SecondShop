@@ -1,9 +1,12 @@
 let products = [
-  { id: 1, name: "PDX", price: 999, stock: 5, category: "其他", img: "images/products/PDX.jpg", inCart: false, quantity: 0 },
+  { id: 1, name: "派大星", price: 9999, stock: 5, category: "其他", img: "images/products/PDX.jpg", inCart: false, quantity: 0 },
   { id: 2, name: "帽T", price: 499, stock: 2, category: "衣服", img: "images/products/hoodie.jpg", inCart: false, quantity: 0 },
   { id: 3, name: "筆電", price: 14999, stock: 8, category: "3C產品", img: "images/products/laptop.jpg", inCart: false, quantity: 0 },
-  { id: 4, name: "小說", price: 199, stock: 3, category: "書籍", img: "images/products/book.jpg", inCart: false, quantity: 0 },
-  { id: 5, name: "棒球帽", price: 299, stock: 10, category: "帽子", img: "images/products/cap.jpg", inCart: false, quantity: 0 }
+  { id: 4, name: "小說", price: 199, stock: 100, category: "書籍", img: "images/products/book.jpg", inCart: false, quantity: 0 },
+  { id: 5, name: "棒球帽", price: 299, stock: 10, category: "帽子", img: "images/products/cap.jpg", inCart: false, quantity: 0 },
+  { id: 6, name: "蚵仔", price: 9999, stock: 1, category: "其他", img: "images/products/pug.gif", inCart: false, quantity: 0 },
+  { id: 7, name: "鞋子", price: 1399, stock: 2, category: "鞋子", img: "images/products/shoes.jpg", inCart: false, quantity: 0 },
+  { id: 8, name: "Switch", price: 4999, stock: 2, category: "3C產品", img: "images/products/switch.jpg", inCart: false, quantity: 0 }
 ];
 
 let currentPage = 1;

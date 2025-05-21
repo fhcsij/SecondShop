@@ -162,4 +162,17 @@ $(document).ready(function () {
       renderProducts(filteredProducts);
     }
   });
+
+  $("#toggleDark").on("click", function () {
+    $("body").toggleClass("dark-mode");
+    const isDark = $("body").hasClass("dark-mode");
+
+    // 按鈕文字切換
+    $("#toggleDark").text(isDark ? "☀️ 日間" : "🌙 夜間");
+
+    // Logo 與購物車圖片切換
+    $("#siteLogo").attr("src", isDark ? "images/logo-white.png" : "images/logo.png");
+    $("#cartIcon").attr("src", isDark ? "images/cart-white.png" : "images/cart.png");
+  });
 });
+

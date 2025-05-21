@@ -71,18 +71,6 @@
         <p id="cartTotal" class="fw-bold text-end">總金額：$0</p>
         <button id="checkoutBtn" class="btn btn-success w-100">結帳</button>
     </div>
-    <script>
-        // 夜間模式切換功能
-        document.getElementById("toggleDark").addEventListener("click", function () {
-            document.body.classList.toggle("dark-mode");
-            const isDark = document.body.classList.contains("dark-mode");
-            document.querySelector("#toggleDark").innerText = isDark ? "☀️ 日間" : "🌙 夜間";
-
-            // 切換 LOGO 與購物車圖示
-            document.getElementById("siteLogo").src = isDark ? "images/logo-white.png" : "images/logo.png";
-            document.getElementById("cartIcon").src = isDark ? "images/cart-white.png" : "images/cart.png";
-        });
-    </script>
 </body>
 
 </html>
